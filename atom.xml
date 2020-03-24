@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qinguoxiaozi.github.io</id>
     <title>长安今夜无雨</title>
-    <updated>2020-03-24T11:41:50.473Z</updated>
+    <updated>2020-03-24T12:08:18.058Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qinguoxiaozi.github.io"/>
     <link rel="self" href="https://qinguoxiaozi.github.io/atom.xml"/>
@@ -38,14 +38,7 @@
 当你重温我在茫然中思忆里<br>
 所有冷冰冰暖了</p>
 <p>http://url.cn/5bnFcs4</p>
-<div id="vcomments"></div>
-<script>
-        new Valine({
-            el: '#vcomments',
-            appId: '8kdj3cqHou96BlPOHVv21PJr-gzGzoHsz',
-            appKey: '0kBIEmuuQw9c2FQWTEAz0d3Y'
-        })
-</script>]]></content>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[千百度 许嵩]]></title>
@@ -53,42 +46,59 @@
         <link href="https://qinguoxiaozi.github.io/post/qian-bai-du/">
         </link>
         <updated>2020-03-24T08:12:05.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="千百度">千百度</h1>
-<pre><code>                   许嵩 
-</code></pre>
-<p>关外野店烟火绝客怎眠<br>
-寒来袖间 谁为我 添两件<br>
-三四更雪 风不减 吹袭一夜<br>
-只是可怜 瘦马未得好歇<br>
-怅然入梦 梦几月 醒几年<br>
-往事凄艳 用情浅 两手缘<br>
-鹧鸪清怨 听得见 飞不回堂前<br>
-旧楹联红褪墨残谁来揭<br>
-我寻你千百度<br>
-日出到迟暮<br>
-一瓢江湖我沉浮<br>
-我寻你千百度<br>
-又一岁荣枯<br>
-可你从不在 灯火阑珊处<br>
-怅然入梦 梦几月 醒几年<br>
-往事凄艳 用情浅 两手缘<br>
-鹧鸪清怨 听得见 飞不回堂前<br>
-旧楹联红褪墨残谁来揭<br>
-我寻你千百度<br>
-日出到迟暮<br>
-一瓢江湖我沉浮<br>
-我寻你千百度<br>
-又一岁荣枯<br>
-可你从不在 灯火阑珊处<br>
-我寻你千百度<br>
-日出到迟暮<br>
-一瓢江湖我沉浮<br>
-我寻你千百度<br>
-又一岁荣枯<br>
-你不在灯火阑珊处</p>
+        <content type="html"><![CDATA[<head>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+</head>
+# 千百度
+                       许嵩 
+关外野店烟火绝客怎眠
+寒来袖间 谁为我 添两件
+三四更雪 风不减 吹袭一夜
+只是可怜 瘦马未得好歇
+怅然入梦 梦几月 醒几年
+往事凄艳 用情浅 两手缘
+鹧鸪清怨 听得见 飞不回堂前
+旧楹联红褪墨残谁来揭
+我寻你千百度
+日出到迟暮
+一瓢江湖我沉浮
+我寻你千百度
+又一岁荣枯
+可你从不在 灯火阑珊处
+怅然入梦 梦几月 醒几年
+往事凄艳 用情浅 两手缘
+鹧鸪清怨 听得见 飞不回堂前
+旧楹联红褪墨残谁来揭
+我寻你千百度
+日出到迟暮
+一瓢江湖我沉浮
+我寻你千百度
+又一岁荣枯
+可你从不在 灯火阑珊处
+我寻你千百度
+日出到迟暮
+一瓢江湖我沉浮
+我寻你千百度
+又一岁荣枯
+你不在灯火阑珊处
 <p>http://url.cn/5osStbn<br>
-https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin</p>
-<p>随记：</p>
+https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin<br>
+随记：</p>
+<body>
+<div id="vcomments"></div>
+<script>
+        new Valine({
+            el: '#vcomments',
+            appId: '8kdj3cqHou96BlPOHVv21PJr-gzGzoHsz',
+            appKey: '0kBIEmuuQw9c2FQWTEAz0d3Y',
+            notify:false, 
+            verify:false, 
+            avatar:'mp', 
+            placeholder: 'just go go' ,
+            avatar:'' // (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
+        })
+</script>
+</body>
 ]]></content>
     </entry>
     <entry>
