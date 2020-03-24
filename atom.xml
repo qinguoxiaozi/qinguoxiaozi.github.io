@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qinguoxiaozi.github.io</id>
     <title>长安今夜无雨</title>
-    <updated>2020-03-24T06:54:31.645Z</updated>
+    <updated>2020-03-24T07:03:53.525Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qinguoxiaozi.github.io"/>
     <link rel="self" href="https://qinguoxiaozi.github.io/atom.xml"/>
@@ -11,6 +11,20 @@
     <logo>https://qinguoxiaozi.github.io/images/avatar.png</logo>
     <icon>https://qinguoxiaozi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 长安今夜无雨</rights>
+    <entry>
+        <title type="html"><![CDATA[南山别忆]]></title>
+        <id>https://qinguoxiaozi.github.io/post/nan-shan-bie-yi/</id>
+        <link href="https://qinguoxiaozi.github.io/post/nan-shan-bie-yi/">
+        </link>
+        <updated>2020-03-24T07:02:25.000Z</updated>
+        <content type="html"><![CDATA[<pre><code> 南山别忆
+</code></pre>
+<p>小楼昨夜听风雨，<br>
+忽见叶落满长安。<br>
+回首思绪万千绕，<br>
+秋月春风岂得知。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[南山小记]]></title>
         <id>https://qinguoxiaozi.github.io/post/nan-shan-xiao-ji/</id>
@@ -33,7 +47,7 @@
 这自由，如光穿梭于宇宙般，<br>
 欲罢还休<br>
 ……<br>
-2019/09/15于终南山</p>
+2019/09/15</p>
 ]]></content>
     </entry>
     <entry>
