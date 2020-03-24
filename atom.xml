@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qinguoxiaozi.github.io</id>
     <title>长安今夜无雨</title>
-    <updated>2020-03-24T06:39:02.612Z</updated>
+    <updated>2020-03-24T06:54:31.645Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qinguoxiaozi.github.io"/>
     <link rel="self" href="https://qinguoxiaozi.github.io/atom.xml"/>
@@ -11,6 +11,44 @@
     <logo>https://qinguoxiaozi.github.io/images/avatar.png</logo>
     <icon>https://qinguoxiaozi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 长安今夜无雨</rights>
+    <entry>
+        <title type="html"><![CDATA[南山小记]]></title>
+        <id>https://qinguoxiaozi.github.io/post/nan-shan-xiao-ji/</id>
+        <link href="https://qinguoxiaozi.github.io/post/nan-shan-xiao-ji/">
+        </link>
+        <updated>2020-03-24T06:52:37.000Z</updated>
+        <content type="html"><![CDATA[<p>当，你喜欢的球员渐渐退役，<br>
+当，你身边的家人慢慢老去，<br>
+当，你亲密的朋友各奔东西，<br>
+当，你心动的恋人也已远离，<br>
+这时光，如指尖划过般，<br>
+匆匆。<br>
+野性呼唤，<br>
+独行，<br>
+欲乘风，出走半生，<br>
+怕归来，一切又不同，<br>
+悲痛。<br>
+少有人走的路，<br>
+崎岖不平，<br>
+这自由，如光穿梭于宇宙般，<br>
+欲罢还休<br>
+……<br>
+2019/09/15于终南山</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[沧海一声笑]]></title>
+        <id>https://qinguoxiaozi.github.io/post/cang-hai-yi-sheng-xiao/</id>
+        <link href="https://qinguoxiaozi.github.io/post/cang-hai-yi-sheng-xiao/">
+        </link>
+        <updated>2020-03-24T06:42:36.000Z</updated>
+        <content type="html"><![CDATA[<p>笑傲江湖<br>
+弦化沧海一声笑，浪滔波怒万里鸣。<br>
+寒光浮影水中现，白马银鞍飒踏星。<br>
+江山多娇怜人醉，佳人才子定终情。<br>
+万丈豪情凌云冲，平生襟抱胸中醒。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[观书有感]]></title>
         <id>https://qinguoxiaozi.github.io/post/za-shi/</id>
