@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qinguoxiaozi.github.io</id>
     <title>长安今夜无雨</title>
-    <updated>2020-03-24T12:08:18.058Z</updated>
+    <updated>2020-03-24T13:42:25.397Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qinguoxiaozi.github.io"/>
     <link rel="self" href="https://qinguoxiaozi.github.io/atom.xml"/>
@@ -12,107 +12,11 @@
     <icon>https://qinguoxiaozi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 长安今夜无雨</rights>
     <entry>
-        <title type="html"><![CDATA[愿你决定 张国荣]]></title>
-        <id>https://qinguoxiaozi.github.io/post/yuan-ni-jue-ding-zhang-guo-rong/</id>
-        <link href="https://qinguoxiaozi.github.io/post/yuan-ni-jue-ding-zhang-guo-rong/">
-        </link>
-        <updated>2020-03-24T08:45:16.000Z</updated>
-        <content type="html"><![CDATA[<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-<h1 id="愿你决定">愿你决定</h1>
-<pre><code>                                     张国荣
-</code></pre>
-<p>年月悄悄远走了悄悄得彷似午夜晚风飘<br>
-每刚感觉到却又已走了前尘旧歌可知多少<br>
-不过忘不了是流年中虚空里<br>
-竟会有一曲这样妙<br>
-旋律载满你的爱这恋曲音韵创自你笑声<br>
-每当心碎了挫败跌倒了凝神静听这旧调<br>
-一切重生了在流年中虚空里<br>
-所有冷冰冰暖了<br>
-常常望愿你决定共我相伴活出生命<br>
-即使我来时没有爱离别盛载满是情<br>
-祈求望命里注定就算几多风雨劲<br>
-准许这个我共你于今生恋得高兴<br>
-来日悄悄我走了悄悄得彷似午夜晚风飘<br>
-你将感觉到我没有走远仍留在听这旧调<br>
-当你重温我在茫然中思忆里<br>
-所有冷冰冰暖了</p>
-<p>http://url.cn/5bnFcs4</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[千百度 许嵩]]></title>
-        <id>https://qinguoxiaozi.github.io/post/qian-bai-du/</id>
-        <link href="https://qinguoxiaozi.github.io/post/qian-bai-du/">
-        </link>
-        <updated>2020-03-24T08:12:05.000Z</updated>
-        <content type="html"><![CDATA[<head>
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-</head>
-# 千百度
-                       许嵩 
-关外野店烟火绝客怎眠
-寒来袖间 谁为我 添两件
-三四更雪 风不减 吹袭一夜
-只是可怜 瘦马未得好歇
-怅然入梦 梦几月 醒几年
-往事凄艳 用情浅 两手缘
-鹧鸪清怨 听得见 飞不回堂前
-旧楹联红褪墨残谁来揭
-我寻你千百度
-日出到迟暮
-一瓢江湖我沉浮
-我寻你千百度
-又一岁荣枯
-可你从不在 灯火阑珊处
-怅然入梦 梦几月 醒几年
-往事凄艳 用情浅 两手缘
-鹧鸪清怨 听得见 飞不回堂前
-旧楹联红褪墨残谁来揭
-我寻你千百度
-日出到迟暮
-一瓢江湖我沉浮
-我寻你千百度
-又一岁荣枯
-可你从不在 灯火阑珊处
-我寻你千百度
-日出到迟暮
-一瓢江湖我沉浮
-我寻你千百度
-又一岁荣枯
-你不在灯火阑珊处
-<p>http://url.cn/5osStbn<br>
-https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin<br>
-随记：</p>
-<body>
-<div id="vcomments"></div>
-<script>
-        new Valine({
-            el: '#vcomments',
-            appId: '8kdj3cqHou96BlPOHVv21PJr-gzGzoHsz',
-            appKey: '0kBIEmuuQw9c2FQWTEAz0d3Y',
-            notify:false, 
-            verify:false, 
-            avatar:'mp', 
-            placeholder: 'just go go' ,
-            avatar:'' // (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
-        })
-</script>
-</body>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[    南山忆]]></title>
+        <title type="html"><![CDATA[南山忆]]></title>
         <id>https://qinguoxiaozi.github.io/post/nan-shan-yi/</id>
         <link href="https://qinguoxiaozi.github.io/post/nan-shan-yi/">
         </link>
-        <updated>2020-03-24T07:13:47.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>    南山忆
-           -瀚海孤客
-</code></pre>
-<p>少时颇好书，夜幕南山陲。<br>
-兴来每独往，胜事空自知。</p>
-]]></content>
+        <updated>2020-03-24T13:41:23.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[无题]]></title>
@@ -120,14 +24,6 @@ https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin<br>
         <link href="https://qinguoxiaozi.github.io/post/wu-ti/">
         </link>
         <updated>2020-03-24T07:08:22.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>        无题
-                    -瀚海孤客
-</code></pre>
-<p>二十六载时已逝，物是人非皆成空 。<br>
-终南山下只一人，夜阑静听风雨声 。<br>
-与君把酒酹滔滔，欲与天公试比高 。<br>
-何时会当凌绝顶，惟愿一览众山小。</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[恋夏]]></title>
@@ -135,12 +31,6 @@ https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin<br>
         <link href="https://qinguoxiaozi.github.io/post/lian-xia/">
         </link>
         <updated>2020-03-24T07:05:17.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>                 恋夏
-                            -瀚海孤客
-</code></pre>
-<p>南山初夏天晓晴，云淡风轻拂面醒。<br>
-任她多姿曳舞婷，从此无心恋美景。</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[南山别忆]]></title>
@@ -148,14 +38,6 @@ https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin<br>
         <link href="https://qinguoxiaozi.github.io/post/nan-shan-bie-yi/">
         </link>
         <updated>2020-03-24T07:02:25.000Z</updated>
-        <content type="html"><![CDATA[<pre><code> 南山别忆
-  -瀚海孤客
-</code></pre>
-<p>小楼昨夜听风雨，<br>
-忽见叶落满长安。<br>
-回首思绪万千绕，<br>
-秋月春风岂得知。</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[南山小记]]></title>
@@ -163,24 +45,6 @@ https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin<br>
         <link href="https://qinguoxiaozi.github.io/post/nan-shan-xiao-ji/">
         </link>
         <updated>2020-03-24T06:52:37.000Z</updated>
-        <content type="html"><![CDATA[<p>当，你喜欢的球员渐渐退役，<br>
-当，你身边的家人慢慢老去，<br>
-当，你亲密的朋友各奔东西，<br>
-当，你心动的恋人也已远离，<br>
-这时光，如指尖划过般，<br>
-匆匆。<br>
-野性呼唤，<br>
-独行，<br>
-欲乘风，出走半生，<br>
-怕归来，一切又不同，<br>
-悲痛。<br>
-少有人走的路，<br>
-崎岖不平，<br>
-这自由，如光穿梭于宇宙般，<br>
-欲罢还休<br>
-……<br>
-2019/09/15   -瀚海孤客</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[沧海一声笑]]></title>
@@ -188,13 +52,6 @@ https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin<br>
         <link href="https://qinguoxiaozi.github.io/post/cang-hai-yi-sheng-xiao/">
         </link>
         <updated>2020-03-24T06:42:36.000Z</updated>
-        <content type="html"><![CDATA[<p>笑傲江湖<br>
--瀚海孤客<br>
-弦化沧海一声笑，浪滔波怒万里鸣。<br>
-寒光浮影水中现，白马银鞍飒踏星。<br>
-江山多娇怜人醉，佳人才子定终情。<br>
-万丈豪情凌云冲，平生襟抱胸中醒。</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[观书有感]]></title>
@@ -202,17 +59,5 @@ https://baike.baidu.com/item/%E8%AE%B8%E5%B5%A9/5425?fr=aladdin<br>
         <link href="https://qinguoxiaozi.github.io/post/za-shi/">
         </link>
         <updated>2020-03-24T06:18:49.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>                                 观书有感(一)
-                                                     -瀚海孤客
-
-                        风嘶雨打侵身寒，金戈铁马飞崖涧。
-
-                        千磨万苦身遭战，乍现霞光透半天。
-
-                        封狼居胥少年志，九州同一老翁牵。
-
-                        古今英杰多少事，煮酒醉饮谈笑间。
-</code></pre>
-]]></content>
     </entry>
 </feed>

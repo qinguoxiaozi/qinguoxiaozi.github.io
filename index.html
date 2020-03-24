@@ -1,380 +1,336 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>长安今夜无雨</title>
-<meta name="description" content="我不是飞鸟，没有陷入罗网，愿做独立意志的自由人！—— 瀚海孤客                       
-                      " />
-<link rel="shortcut icon" href="https://qinguoxiaozi.github.io/favicon.ico?v=1585051615183">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
+<link rel="shortcut icon" href="https://qinguoxiaozi.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://qinguoxiaozi.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://qinguoxiaozi.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="长安今夜无雨 - Atom Feed" href="https://qinguoxiaozi.github.io/atom.xml">
 
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxxx-x"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-xxxxxxxxx-x');
+  </script>
+    
 
-  </head>
-  <body>
-    <div class="main px-4 flex flex-col lg:flex-row">
-      <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
-  <div class="lg:sticky top-0">
-    <div class="sidebar-content">
-      <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
-        <i class="ri-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
-        <a href="https://qinguoxiaozi.github.io">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://qinguoxiaozi.github.io/images/avatar.png?v=1585051615183" alt="">
-        </a>
-        <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">长安今夜无雨</h1>
-      </div>
+  <meta name="description" content="我不是飞鸟，没有陷入罗网，愿做独立意志的自由人！—— 瀚海孤客                       
+                      " />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="https://github.com/qinguoxiaozi" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于博主
+      </a>
+    
+    <a href="https://qinguoxiaozi.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
       
-        <div class="animated fadeInLeft" style="animation-delay: 0.4s">
-          <p class="my-4 text-gray-600 font-light hidden lg:block">
-            我不是飞鸟，没有陷入罗网，愿做独立意志的自由人！—— 瀚海孤客                       
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      长安今夜无雨
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      我不是飞鸟，没有陷入罗网，愿做独立意志的自由人！—— 瀚海孤客                       
                       
-          </p>
-          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
-            
-              
-                <a href="https://github.com/qinguoxiaozi" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
-                  <i class="ri-github-line"></i>
-                </a>
-              
-            
-              
-            
-              
-            
-              
-                <a href="https://www.zhihu.com/people/jacksin-46" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
-                  <i class="ri-zhihu-line"></i>
-                </a>
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
+    </div>
+    
+    
+      <div class="mt-8 flex items-center">
+        
+          <div class="text-gray-500 mr-2">
+            Follow me 👉
           </div>
-        </div>
-      
-    </div>
-  </div>
-</div>
-
-<div class="menu-container">
-  <i class="ri-arrow-left-line text-2xl cursor-pointer animated fadeIn close-menu-btn" onclick="closeMenu()"></i>
-  <div>
-    
-      
-        <a href="/" class="menu" style="animation-delay: 0s">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu" style="animation-delay: 0.2s">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu" style="animation-delay: 0.4s">
-          标签
-        </a>
-      
-    
-      
-        <a href="https://github.com/qinguoxiaozi" class="menu" style="animation-delay: 0.6000000000000001s">
-          关于博主
-        </a>
-      
-    
-  </div>
-  <div class="site-footer">
-    <div class="py-4 text-gray-700">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></div>
-    <a class="rss" href="https://qinguoxiaozi.github.io/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-<div class="mask" onclick="closeMenu()">
-</div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
-        <h2 class="latest-article text-lg text-gray-700 mb-8">
-          <i class="ri-article-line"></i>
-          最新文章
-        </h2>
         
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
-    
-      <a href="https://qinguoxiaozi.github.io/post/yuan-ni-jue-ding-zhang-guo-rong/" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
-        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://qinguoxiaozi.github.io/post-images/yuan-ni-jue-ding-zhang-guo-rong.png'">
-        </div>
-      </a>
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/yuan-ni-jue-ding-zhang-guo-rong/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">愿你决定 张国荣</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
         
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 1 min read</div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${1 * 0.2}s` }">
-    
-      <a href="https://qinguoxiaozi.github.io/post/qian-bai-du/" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
-        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://qinguoxiaozi.github.io/post-images/qian-bai-du.png'">
-        </div>
-      </a>
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/qian-bai-du/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">千百度 许嵩</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 2 min read</div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${2 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/nan-shan-yi/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">    南山忆</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 1 min read</div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${3 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/wu-ti/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">无题</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 1 min read</div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${4 * 0.2}s` }">
-    
-      <a href="https://qinguoxiaozi.github.io/post/lian-xia/" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
-        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://qinguoxiaozi.github.io/post-images/lian-xia.jpg'">
-        </div>
-      </a>
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/lian-xia/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">恋夏</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 1 min read</div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${5 * 0.2}s` }">
-    
-      <a href="https://qinguoxiaozi.github.io/post/nan-shan-bie-yi/" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
-        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://qinguoxiaozi.github.io/post-images/nan-shan-bie-yi.jpeg'">
-        </div>
-      </a>
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/nan-shan-bie-yi/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">南山别忆</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 1 min read</div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${6 * 0.2}s` }">
-    
-      <a href="https://qinguoxiaozi.github.io/post/nan-shan-xiao-ji/" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
-        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://qinguoxiaozi.github.io/post-images/nan-shan-xiao-ji.jpeg'">
-        </div>
-      </a>
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/nan-shan-xiao-ji/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">南山小记</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 1 min read</div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${7 * 0.2}s` }">
-    
-      <a href="https://qinguoxiaozi.github.io/post/cang-hai-yi-sheng-xiao/" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
-        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://qinguoxiaozi.github.io/post-images/cang-hai-yi-sheng-xiao.jpeg'">
-        </div>
-      </a>
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/cang-hai-yi-sheng-xiao/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">沧海一声笑</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 1 min read</div>
-    </div>
-  </section>
-
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${8 * 0.2}s` }">
-    
-      <a href="https://qinguoxiaozi.github.io/post/za-shi/" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
-        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://qinguoxiaozi.github.io/post-images/za-shi.jpeg'">
-        </div>
-      </a>
-    
-    <div class="content">
-      <a href="https://qinguoxiaozi.github.io/post/za-shi/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">观书有感</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2020-03-24 / 1 min read</div>
-    </div>
-  </section>
-
-        <div class="read-more">
           
-        </div>
-        <div class="index-page">
-          <div class="pagination-container animated fadeIn">
-  
-  
-</div>
-
-        </div>
+        
+          
+            
+              <a href="qinguoxiaozi@gmail.com" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
+                <i class="ri-mail-line"></i>
+              </a>
+            
+          
+        
+          
+            
+              <a href="https://github.com/qinguoxiaozi" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
+                <i class="ri-github-line"></i>
+              </a>
+            
+          
+        
+          
+        
+          
+        
+          
+            
+              <a href="https://www.zhihu.com/people/jacksin-46" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
+                <i class="ri-zhihu-line"></i>
+              </a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       </div>
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://qinguoxiaozi.github.io/images/avatar.png?v=1585057339101" alt="长安今夜无雨" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://qinguoxiaozi.github.io/post/nan-shan-yi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          南山忆
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-24</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+              南山忆
+           -瀚海孤客
+
+少时颇好书，夜幕南山陲。
+兴来每独往，胜事空自知。
+
+      </div>
+      <a href="https://qinguoxiaozi.github.io/post/nan-shan-yi/" class="btn">
+        Read more
+      </a>
     </div>
+    
+  </div>
 
-    <script src="https://qinguoxiaozi.github.io/media/prism.js"></script>  
-<script>
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://qinguoxiaozi.github.io/post/wu-ti/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          无题
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-24</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+                无题
+                    -瀚海孤客
 
-Prism.highlightAll()
-let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+二十六载时已逝，物是人非皆成空 。
+终南山下只一人，夜阑静听风雨声 。
+与君把酒酹滔滔，欲与天公试比高 。
+何时会当凌绝顶，惟愿一览众山小。
+...
+      </div>
+      <a href="https://qinguoxiaozi.github.io/post/wu-ti/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
 
-// This should probably be throttled.
-// Especially because it triggers during smooth scrolling.
-// https://lodash.com/docs/4.17.10#throttle
-// You could do like...
-// window.addEventListener("scroll", () => {
-//    _.throttle(doThatStuff, 100);
-// });
-// Only not doing it here to keep this Pen dependency-free.
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://qinguoxiaozi.github.io/post/lian-xia/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          恋夏
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-24</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+                         恋夏
+                            -瀚海孤客
 
-window.addEventListener("scroll", event => {
-  let fromTop = window.scrollY;
+南山初夏天晓晴，云淡风轻拂面醒。
+任她多姿曳舞婷，从此无心恋美景。
+...
+      </div>
+      <a href="https://qinguoxiaozi.github.io/post/lian-xia/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://qinguoxiaozi.github.io/post-images/lian-xia.jpg" alt="恋夏">
+    
+  </div>
 
-  mainNavLinks.forEach((link, index) => {
-    let section = document.getElementById(decodeURI(link.hash).substring(1));
-    let nextSection = null
-    if (mainNavLinks[index + 1]) {
-      nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-    }
-    if (section.offsetTop <= fromTop) {
-      if (nextSection) {
-        if (nextSection.offsetTop > fromTop) {
-          link.classList.add("current");
-        } else {
-          link.classList.remove("current");    
-        }
-      } else {
-        link.classList.add("current");
-      }
-    } else {
-      link.classList.remove("current");
-    }
-  });
-});
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://qinguoxiaozi.github.io/post/nan-shan-bie-yi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          南山别忆
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-24</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+         南山别忆
+  -瀚海孤客
 
+小楼昨夜听风雨，
+忽见叶落满长安。
+回首思绪万千绕，
+秋月春风岂得知。
 
-document.addEventListener("DOMContentLoaded", function() {
-  var lazyImages = [].slice.call(document.querySelectorAll(".post-feature-image.lazy"));
+      </div>
+      <a href="https://qinguoxiaozi.github.io/post/nan-shan-bie-yi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://qinguoxiaozi.github.io/post-images/nan-shan-bie-yi.jpeg" alt="南山别忆">
+    
+  </div>
 
-  if ("IntersectionObserver" in window) {
-    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          let lazyImage = entry.target
-          lazyImage.style.backgroundImage = `url(${lazyImage.dataset.bg})`
-          lazyImage.classList.remove("lazy")
-          lazyImageObserver.unobserve(lazyImage)
-        }
-      });
-    });
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://qinguoxiaozi.github.io/post/nan-shan-xiao-ji/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          南山小记
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-24</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        当，你喜欢的球员渐渐退役，
+当，你身边的家人慢慢老去，
+当，你亲密的朋友各奔东西，
+当，你心动的恋人也已远离，
+这时光，如指尖划过般，
+匆匆。
+野性呼唤，
+独行，
+欲乘风，出走半生，
+怕归来，一切又不同，
+悲痛。
+少有人走的路，
+崎岖不平，...
+      </div>
+      <a href="https://qinguoxiaozi.github.io/post/nan-shan-xiao-ji/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://qinguoxiaozi.github.io/post-images/nan-shan-xiao-ji.jpeg" alt="南山小记">
+    
+  </div>
 
-    lazyImages.forEach(function(lazyImage) {
-      lazyImageObserver.observe(lazyImage)
-    })
-  } else {
-    // Possibly fall back to a more compatible method here
-  }
-});
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://qinguoxiaozi.github.io/post/cang-hai-yi-sheng-xiao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          沧海一声笑
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-24</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        笑傲江湖
+-瀚海孤客
+弦化沧海一声笑，浪滔波怒万里鸣。
+寒光浮影水中现，白马银鞍飒踏星。
+江山多娇怜人醉，佳人才子定终情。
+万丈豪情凌云冲，平生襟抱胸中醒。
 
-const menuContainer = document.querySelector('.menu-container')
-const menus = document.querySelectorAll('.menu-container .menu')
-const mask = document.querySelector('.mask')
-const contentWrapper = document.querySelector('.content-wrapper')
-const latestArticle = document.querySelector('.latest-article')
-const readMore = document.querySelector('.read-more')
-const indexPage = document.querySelector('.index-page')
+      </div>
+      <a href="https://qinguoxiaozi.github.io/post/cang-hai-yi-sheng-xiao/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://qinguoxiaozi.github.io/post-images/cang-hai-yi-sheng-xiao.jpeg" alt="沧海一声笑">
+    
+  </div>
 
-const isHome = location.pathname === '/'
-if (latestArticle) {
-  latestArticle.style.display = isHome ? 'block' : 'none'
-  readMore.style.display = isHome ? 'block' : 'none'
-  indexPage.style.display = isHome ? 'none' : 'block'
-}
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://qinguoxiaozi.github.io/post/za-shi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          观书有感
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-24</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+                                         观书有感(一)
+                                                     -瀚海孤客
 
-const openMenu = () => {
-  menuContainer.classList.add('open')
-  menus.forEach(menu => {
-    menu.classList.add('animated', 'fadeInLeft')
-  })
-  mask.classList.add('open')
-  contentWrapper.classList.add('is-second')
-}
-
-const closeMenu = () => {
-  menuContainer.classList.remove('open')
-  menus.forEach(menu => {
-    menu.classList.remove('animated', 'fadeInLeft')
-  })
-  mask.classList.remove('open')
-  contentWrapper.classList.remove('is-second')
-}
-</script>
+                   ...
+      </div>
+      <a href="https://qinguoxiaozi.github.io/post/za-shi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://qinguoxiaozi.github.io/post-images/za-shi.jpeg" alt="观书有感">
+    
+  </div>
   
-  </body>
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  人生漫长的转瞬即逝，有人见尘埃，有人见星辰！
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://qinguoxiaozi.github.io/media/scripts/main.js"></script>
+</body>
+
 </html>
