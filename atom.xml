@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qinguoxiaozi.github.io</id>
     <title>长安今夜无雨</title>
-    <updated>2020-03-24T07:12:00.503Z</updated>
+    <updated>2020-03-24T07:18:30.581Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qinguoxiaozi.github.io"/>
     <link rel="self" href="https://qinguoxiaozi.github.io/atom.xml"/>
@@ -11,6 +11,19 @@
     <logo>https://qinguoxiaozi.github.io/images/avatar.png</logo>
     <icon>https://qinguoxiaozi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 长安今夜无雨</rights>
+    <entry>
+        <title type="html"><![CDATA[    南山忆]]></title>
+        <id>https://qinguoxiaozi.github.io/post/nan-shan-yi/</id>
+        <link href="https://qinguoxiaozi.github.io/post/nan-shan-yi/">
+        </link>
+        <updated>2020-03-24T07:13:47.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>    南山忆
+           -瀚海孤客
+</code></pre>
+<p>少时颇好书，夜幕南山陲。<br>
+兴来每独往，胜事空自知。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[无题]]></title>
         <id>https://qinguoxiaozi.github.io/post/wu-ti/</id>
