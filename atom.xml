@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qinguoxiaozi.github.io</id>
     <title>长安今夜无雨</title>
-    <updated>2020-03-24T06:14:18.827Z</updated>
+    <updated>2020-03-24T06:30:39.211Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qinguoxiaozi.github.io"/>
     <link rel="self" href="https://qinguoxiaozi.github.io/atom.xml"/>
@@ -11,4 +11,22 @@
     <logo>https://qinguoxiaozi.github.io/images/avatar.png</logo>
     <icon>https://qinguoxiaozi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 长安今夜无雨</rights>
+    <entry>
+        <title type="html"><![CDATA[观书有感]]></title>
+        <id>https://qinguoxiaozi.github.io/post/za-shi/</id>
+        <link href="https://qinguoxiaozi.github.io/post/za-shi/">
+        </link>
+        <updated>2020-03-24T06:18:49.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>                                观书有感(一)
+
+                        风嘶雨打侵身寒，金戈铁马飞崖涧。
+
+                        千磨万苦身遭战，乍现霞光透半天。
+
+                        封狼居胥少年志，九州同一老翁牵。
+
+                        古今英杰多少事，煮酒醉饮谈笑间。
+</code></pre>
+]]></content>
+    </entry>
 </feed>
